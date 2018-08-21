@@ -2,7 +2,9 @@
 location=<Azure Location> # Azure region westeurope for instance
 rootname=<Root name> # the name of this project; best kept short (5 characters or less).
 subscriptionname=<Azure Subscription Name>
-# The level of security of this project rely heavily on 
+# The level of security of this project relies heavily on the strength of these variables
+# best to use a strong password generator and a password management tool
+# consider using characters and numberic values to avoid needing to escape special characters
 wordpressmysqlrootpassword=<WordPress MySQL root password>
 wordpressmysqldbname=<WordPress MySQL database name>
 wordpressmysqldbusername=<WordPress MySQL database username>
