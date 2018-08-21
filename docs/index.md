@@ -27,7 +27,7 @@ Edit LEMPWordPress.sh and enter strong values for:
 
 Run the Azure Cloud installer:
 ```bash
-sh LampWordPress.sh
+sh LEMPWordPress.sh
 ```
 
 You now have a LEMP server with Wordpress on Azure!
