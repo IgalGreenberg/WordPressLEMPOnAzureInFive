@@ -17,13 +17,13 @@ git clone https://github.com/IgalGreenberg/WordPressLEMPOnAzureInFive.git
 cd WordpressLEMPonAzureInFive/
 ```
 Edit LEMPWordPress.sh and enter strong values for:
- - location=<Azure Location> # Azure region westeurope for instance
- - rootname=<Root name> # the name of this project; best kept short (5 characters or less).
- - subscriptionname=<Azure Subscription Name>
- - wordpressmysqlrootpassword=<WordPress MySQL root password>
- - wordpressmysqldbname=<WordPress MySQL database name>
- - wordpressmysqldbusername=<WordPress MySQL database username>
- - wordpressmysqldbpassword=<WordPress MySQL database user password>
+ - location
+ - rootname
+ - subscriptionname
+ - wordpressmysqlrootpassword
+ - wordpressmysqldbname
+ - wordpressmysqldbusername
+ - wordpressmysqldbpassword
 
 Run the Azure Cloud installer:
 ```bash
