@@ -59,7 +59,15 @@ write_files:
           location / {
               try_files \$uri \$uri/ /index.php?\$args;
           }
-      
+
+          location ~*  \.(jpg|jpeg|png|gif|ico|css|js)$ {
+              expires 365d;
+          }
+
+          location ~*  \.(pdf)$ {
+              expires 30d;
+          }      
+
           location ~ \.php$ {
                include snippets/fastcgi-php.conf;
                fastcgi_pass unix:/var/run/php/php7.0-fpm.sock;
