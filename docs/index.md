@@ -1,4 +1,4 @@
-# WordPressLEMPOnAzureInFive
+# WP On Azure In Five
 Get an Azure VM up and running with WordPress on LEMP in five minutes. The VM would use Ubuntu 16, Apache 2, MariaDB, PHP 7.0 and latest wordpress.
 I have used several websites to create this entry.  The biggest thanks goes to:
 1. https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-lemp-stack
